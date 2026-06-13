@@ -1,7 +1,7 @@
 // =========================
 // TYPING ANIMATION
 // =========================
-
+alert("JS Loaded");
 const typingText = document.getElementById("typing");
 
 const words = [

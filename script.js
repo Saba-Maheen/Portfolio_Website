@@ -196,30 +196,12 @@ window.addEventListener("scroll", startCounter);
 const darkBtn =
     document.getElementById("dark-mode");
 
-if (darkBtn) {
+const darkBtn = document.getElementById("dark-mode");
 
-    darkBtn.addEventListener("click", () => {
-
-        document.body.classList.toggle("dark");
-
-        if (
-            document.body.classList.contains("dark")
-        ) {
-            localStorage.setItem("theme", "dark");
-        } else {
-            localStorage.setItem("theme", "light");
-        }
-
-    });
-
-    if (
-        localStorage.getItem("theme") === "dark"
-    ) {
-        document.body.classList.add("dark");
-    }
-}
-
-
+darkBtn.addEventListener("click", () => {
+    document.body.style.background = "black";
+    document.body.style.color = "white";
+});
 // =========================
 // SMOOTH SCROLL
 // =========================

@@ -505,6 +505,27 @@ footer{
     color:white;
 }
 
+.dark .navbar{
+    background:#1e293b;
+}
+
+.dark .logo,
+.dark .navbar a,
+.dark h1,
+.dark h2,
+.dark h3,
+.dark p{
+    color:white;
+}
+
+.dark .hero-text h2,
+.dark .hero-text p,
+.dark .timeline-item span,
+.dark .counter p,
+.dark .project-card p{
+    color:#cbd5e1;
+}
+
 .dark .card,
 .dark .skill-card,
 .dark .project-card,
@@ -516,11 +537,12 @@ footer{
     color:white;
 }
 
-#dark-mode{
-    border:none;
-    background:none;
-    cursor:pointer;
-    font-size:20px;
+.dark section{
+    background:#0f172a;
+}
+
+.dark{
+    background:red !important;
 }
 .project-links{
     margin-top:15px;
